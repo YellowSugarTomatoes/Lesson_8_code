@@ -1,0 +1,69 @@
+a{
+ display: block;
+    float:left;
+    clear:both;
+}
+
+div{float: left;}
+
+.transformationBox{width:250px;height:200px; background-color: blue; border-radius: 20px;}
+
+
+
+/*---------attribute selectors---------*/
+/*
+a[href] {color:red;}
+a[href='#']{background: orange;}
+a[class~='ex']{background: orange;}
+a[title^='exa']{background: brown;}
+a[title$='5']{background: purple;}
+a[class*='t']{background: purple;}
+*/
+
+
+/*---------text effects---------*/
+/*
+p{text-shadow: 3px 3px 10px RGBA(25,25,25,1);}
+p{ text-shadow: -3px -3px 10px #BBB; }
+
+.shadowCube{width:200px;
+    height:200px;
+    background-color: orange;
+    box-shadow: 10px 10px 5px #888888;
+}
+*/
+
+
+/*---------multiple images---------*/
+
+/*
+.multiImage {
+    width:100%;
+        height:300px;
+        background-image: url('http://ericsteinborn.com/github-for-cats/img/ironcat.png'), url('http://tootlee.com/wp-content/uploads/2013/03/poppy-63755_1280_800x600.jpg');
+       background-repeat: no-repeat;
+      background-size:contain;
+}
+
+.multiImage {
+    width:100%;
+    height:300px;
+                     background:
+url('http://ericsteinborn.com/github-for-cats/img/ironcat.png') no-repeat 55% 85%,
+url('http://tootlee.com/wp-content/uploads/2013/03/poppy-63755_1280_800x600.jpg') no-repeat 50% 50%; 
+background-size:contain;}
+*/
+
+/*---------2D Transformation---------*/
+/*
+.transformationBox:hover{background-color:red;transform: rotate(7deg); }
+.transformationBox:hover{background-color:yellow;transform: skewX(30deg);}
+.transformationBox:hover{background-color:green;transform: scaleX(4);}
+*/
+
+/*---------2D Transitions---------*/
+/*
+.transformationBox:hover{background-color:red;transform: rotate(180deg);transition: transform 1s; }
+.transformationBox:hover{background-color:red;transform: skewY(180deg);transition: transform 1s; }
+.transformationBox:hover{background-color:red;transform: scaleX(2);transition: transform 1s; }
+*/
